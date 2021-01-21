@@ -1,20 +1,20 @@
 // kiloMeterToMeter function
-function kiloMeterToMeter(kilometer){
+function kilometerToMeter(kilometer){
     var meter= kilometer*1000;
     return meter;
 }
- kiloMeterToMeter(6);
+ kilometerToMeter(6);
 
  // budgetCalculator function
 
- function budgeetCalculator(clock,phone,laptop){
+ function budgetCalculator(clock,phone,laptop){
      var clocks = clock*50;
      var phones = phone *100;
      var laptops =laptop *500;
      var trotal =clocks+phones+laptops;
      return trotal;
  }
- budgeetCalculator(2,3,2);
+ budgetCalculator(2,3,2);
 
  // hotelCost function
  function hotelCost (hotelday){
